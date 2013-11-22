@@ -1,5 +1,5 @@
 ---
-layout: pure
+layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-11-14 21:37:44
 ---
