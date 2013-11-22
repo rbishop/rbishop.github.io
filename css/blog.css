@@ -47,13 +47,14 @@ a:focus {
 }
 
 .nav-list {
-    margin: 0;
+    margin: 5px 0 0;
     padding: 0;
     list-style: none;
 }
 .nav-item {
     display: inline-block;
     *display: inline;
+    margin-left: 5px;
     zoom: 1;
 }
 .nav-item a {
