@@ -59,13 +59,11 @@ a:focus {
 }
 .nav-item a {
     background: transparent;
-    border: 3px solid rgb(103, 103, 180);
     color: #fff;
     margin-top: 1em;
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    border: 3px solid rgb(142, 142, 214);
     color: rgb(142, 142, 214);
     text-decoration: none;
 }
