@@ -2,3 +2,4 @@ name: Rubiquity
 description: Ruby. Ruby Everywhere.
 markdown: redcarpet
 pygments: true
+baseurl: /rubiquity
