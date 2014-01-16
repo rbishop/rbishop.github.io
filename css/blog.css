@@ -6,11 +6,11 @@
 
 a {
     text-decoration: none;
-    color: rgb(142, 142, 214);
+    color: rgb(180, 180, 180);
 }
 a:hover,
 a:focus {
-    text-decoration: underline;
+    color: rgb(155, 17, 30);
 }
 
 /* LAYOUT CSS */
@@ -25,7 +25,7 @@ a:focus {
     bottom: 0;
     width: 25%;
     margin-left: -25%;
-    background: rgb(24, 33, 61);
+    background: rgb(155, 17, 30);
     color: #fff;
 }
 
@@ -42,8 +42,8 @@ a:focus {
     text-transform: uppercase;
 }
 .brand-tagline {
-    font-weight: 300;
-    color: rgb(142, 142, 214);
+    font-weight: 200;
+    color: rgb(180, 180, 180);
 }
 
 .nav-list {
@@ -64,7 +64,7 @@ a:focus {
 }
 .nav-item a:hover,
 .nav-item a:focus {
-    color: rgb(142, 142, 214);
+    color: rgb(180, 180, 180);
     text-decoration: none;
 }
 
@@ -85,21 +85,37 @@ a:focus {
 .post {
     padding-bottom: 2em;
 }
+
 .post-title {
     font-size: 2em;
-    color: #222;
     margin-bottom: 0.2em;
+    color: black;
 }
+
+a:hover .post-title { 
+  color: rgb(155, 17, 30);
+}
+
 .post-avatar {
     border-radius: 50px;
     float: right;
     margin-left: 1em;
 }
+
 .post-description {
     font-family: Georgia, "Cambria", serif;
     color: #444;
-    line-height: 1.8em;
+    line-height: 2em;
 }
+
+.post-description h3 {
+  font-size: 1.6em;
+}
+
+.post-description p {
+  font-size: 1.25em;
+}
+
 .post-meta {
     color: #999;
     font-size: 90%;
@@ -134,19 +150,6 @@ a:focus {
     margin-left: 1em;
     color: #fff;
     text-shadow: 0 1px 1px #333;
-}
-
-.footer {
-    text-align: center;
-    padding: 1em 0;
-}
-.footer a {
-    color: #ccc;
-    font-size: 80%;
-}
-.footer .pure-menu a:hover,
-.footer .pure-menu a:focus {
-    background: none;
 }
 
 @media (max-width: 767px) {
