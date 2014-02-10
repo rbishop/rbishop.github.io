@@ -4,9 +4,9 @@ title: "Never Experience Whitespace Shame Again"
 date: 2014-01-29 10:10:33
 ---
 
-We've all been there before. You finish up the latest and greatest feature, or better yet, refactoring, and open up the pull request for everyone to marvel at your latest work of art. Unsurprisingly to you, you receive a bunch of notifications five minutes later. Being the amazing developer that you are you expect these to be high fives and thumbs ups about how great you are. Unfortunately for you these notifications are about *whitespace*.
+We've all been there before. You finish up the latest and greatest feature, or better yet, refactoring, and open up the pull request for everyone to marvel at your latest work of art. Unsurprisingly to you, you receive a bunch of notifications five minutes later. Being the amazing developer that you are, you expect these to be high fives and thumbs ups about how great you are. Unfortunately for you, these notifications are about *whitespace*.
 
-In the cardinal sins of programming, whitespace is up there along with unintentional new lines and tabs instead of spaces. Depending on the editor you use whitespace can even be highlighted to look like the color of blood. You may as well have murdered your source code. Thankfully, there are tons of tools to remove whitespace from files. Your text editor can probably do this for you, or maybe a shell script. But my personal favorite is good ol' **git**.
+In the cardinal sins of programming, whitespace is up there along with unintentional new lines and tabs instead of spaces. Using syntax highlighters, whitespace can even be highlighted to look like the color of blood. You may as well have murdered your source code! Thankfully, there are tons of tools to remove whitespace from files. Your text editor can probably do this for you, or maybe a shell script. But my personal favorite is good ol' **git**.
 
 ### Meet git-stripspace
 To most people, git is just an amazing revision control system. Along with that, git also ships with some other pretty handy tools. ``git-stripspace`` is one of these such tools. `git-stripspace` does exactly what it name says, it strips trailing whitespace from the end of lines!
@@ -57,4 +57,4 @@ The command above creates a filter named "trimWhitespace" that will get run all 
 	clean = git-stripspace
 ```
 ### The End Of The Line
-Besides saving you from future whitespace shaming I hope this was also a useful look into a great tool that git provides as well as a look into git filters. For more great git reading I recommend the excellent [git-scm book](http://git-scm.com/book).
+Besides saving you from future whitespace shaming, I hope this was also a useful look into a great tool that git provides. For more great git reading I recommend the excellent [git-scm book](http://git-scm.com/book).
