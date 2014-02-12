@@ -6,8 +6,8 @@ date: 2014-02-12 00:00:00
 
 We've all been there before. You finish up the latest and greatest feature, or
 better yet, refactoring, and open up the pull request for everyone to marvel at
-your latest work of art. Unsurprisingly to you, you receive a bunch of
-notifications five minutes later. Being the amazing developer that you are, you
+your latest work of art. Unsurprisingly to you, a bunch of notifications 
+roll in five minutes later. Being the amazing developer that you are, you
 expect these to be high fives and thumbs ups about how great you are.
 Unfortunately for you, these notifications are about *whitespace*.
 
@@ -44,7 +44,9 @@ of whitespace!    $
 `git-stripspace` is a a subcommand to the main git command. You can run it by
 typing the following into your shell:
 
-`git stripspace < whitespace.txt`
+```
+git stripspace < whitespace.txt
+```
 
 Let's run that command and take a look at the output. Again, the dollar signs
 are only there to denote the real end of the lines. 
@@ -57,7 +59,7 @@ of whitespace!$
 ```
 
 Hotdog! As promised, the whitespace is gone. But you'll also notice, we had two
-new lines in between line 3 and 5 and now we have only one new line. That's
+new lines in between lines 3 and 5 and now we have only one new line. That's
 because `git-stripspace` is actually an overachiever. On top of stripping
 whitespace it also:
 
@@ -70,16 +72,17 @@ Using `git-stripspace` like this is fine and dandy and all but we could just as
 easily forget to run this over our files. Also, we're programmers and being
 lazy (in a good way!) is an important part of our culture. Let's automate this.
 
-`git` allows you to add filters to it. These filters then run the program that
-you tell it to run at a certain event. One of these events is `clean` which
-gets run just before you commit changes. We can use this `clean` event to run
-`git-stripspace` every time we commit changes to files. We'll never commit
-whitespace crime again!
+`git` allows you to add filters that then get run at a certain event. One of
+these events is `clean` which gets run just before you commit changes. We can
+use this `clean` event to run `git-stripspace` every time we commit changes to
+files. We'll never commit whitespace crime again!
 
-`git config --global filter.trimWhitespace.clean git-stripspace`
+```
+git config --global filter.trimWhitespace.clean git-stripspace
+```
 
-The command above creates a filter named "trimWhitespace" that will get run all
-of our staged files through the `git-stripspace` program every time we commit.
+The command above creates a filter named "trimWhitespace" that will run all of
+our staged files through the `git-stripspace` program every time we commit.
 The `--global` flag applies this globally so all of our git repos on our local
 machine can benefit from this. After you run this command you should have an
 entry that looks like this in your `.gitconfig`:
