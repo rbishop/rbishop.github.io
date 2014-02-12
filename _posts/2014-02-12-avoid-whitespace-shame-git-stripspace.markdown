@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Never Experience Whitespace Shame Again"
-date: 2014-01-29 10:10:33
+date: 2014-02-12 00:00:00
 ---
 
 We've all been there before. You finish up the latest and greatest feature, or better yet, refactoring, and open up the pull request for everyone to marvel at your latest work of art. Unsurprisingly to you, you receive a bunch of notifications five minutes later. Being the amazing developer that you are, you expect these to be high fives and thumbs ups about how great you are. Unfortunately for you, these notifications are about *whitespace*.
