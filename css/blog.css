@@ -27,6 +27,7 @@ a:focus {
     margin-left: -25%;
     background: rgb(155, 17, 30);
     color: #fff;
+    overflow-y: auto;
 }
 
 .header {
@@ -80,6 +81,10 @@ a:focus {
 
 .content {
     padding: 2em 3em 0;
+}
+
+.posts {
+  margin-bottom: 100px;
 }
 
 .post-title {

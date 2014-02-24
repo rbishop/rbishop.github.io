@@ -46,5 +46,14 @@
         </div>
       </div>
     </div>
+  <script type="text/javascript">
+    var links = document.getElementsByTagName('a');
+    for (var i = 0, len = links.length; i < len; i++) {
+      var link = links[i];
+      if (link.hostname !== window.location.hostname) {
+        link.target = "_blank";
+      }
+    }
+  </script>
   </body>
 </html>
