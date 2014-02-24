@@ -21,7 +21,7 @@ maybe a shell script. But my personal favorite is good ol' **git**.
 ### Meet git-stripspace
 To most people, git is just an amazing revision control system. Along with
 that, git also ships with some other pretty handy tools. ``git-stripspace`` is
-one of these such tools. `git-stripspace` does exactly what it name says, it
+one of these such tools. `git-stripspace` does exactly what its name says, it
 strips trailing whitespace from the end of lines!
 
 Let's fire up our command line and get acquainted.
