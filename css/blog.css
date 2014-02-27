@@ -27,7 +27,6 @@ a:focus {
     margin-left: -25%;
     background: rgb(155, 17, 30);
     color: #fff;
-    overflow-y: auto;
 }
 
 .header {
