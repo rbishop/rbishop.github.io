@@ -15,11 +15,11 @@ by another breathing human.
 
 While I have never met Dave Thomas, from reading his books (thanks Dave!) and
 writings I get the impression that he is a pretty nice guy. Unfortunately for
-you, I'm not. You see, I work incredibly hard at my craft and if I could live
-in my parent's basement making cool open source tools all day long none of this
-"Agile" shit would matter to me. But, alas, it does because I need money and
-"Agile" is what helps me put up with the disarray that the world of business
-people is.
+you, I'm not. You see, I work incredibly hard at my craft if I could live
+in my parent's basement eating Totino's pizza rolls while making cool open 
+source tools all day long none of this "Agile" stuff would matter to me. But, 
+alas, it does because I need money and "Agile" is what helps me put up with 
+the disarray that the world of business people is.
 
 But as Dave has so kindly pointed out, my "Agile" and your "Agile" aren't the
 same thing. My Agile (I'm going to stop quoting it now) is iterating quickly,
@@ -68,9 +68,9 @@ they were interested in helping you until your team stared at them like a pack
 of antelope.
 
 Change starts with us, the bastions of Agility with a capital A. It's our
-responsibility to inform business leaders of what agile is. Agile is so simple
-and beautiful that it is [summed up eloquently in a Geocities-esque web
-page](http://agilemanifesto.org/) that hasn't changed, ever. The charlatans
-pimping courses and seminars needs to be ostracised. The best advocates of
-Agility are us: *the developers*. Developers created the Agile Manifesto, let's
-carry that torch forward for them.
+responsibility to inform business leaders and fellow programmers of what agile 
+is. Agile is so simple and beautiful that it is [summed up eloquently in a 
+Geocities-esque web page](http://agilemanifesto.org/) that hasn't changed, 
+ever. The charlatans pimping courses and seminars need to be ostracised. The 
+best advocates of Agility are us: *the developers*. Developers created the 
+Agile Manifesto, let's carry that torch forward for them.
