@@ -15,9 +15,9 @@ by another breathing human.
 
 While I have never met Dave Thomas, from reading his books (thanks Dave!) and
 writings I get the impression that he is a pretty nice guy. Unfortunately for
-you, I'm not. You see, I work incredibly hard at my craft if I could live
+you, I'm not. You see, I work incredibly hard at my craft, and if I could live
 in my parent's basement eating Totino's pizza rolls while making cool open 
-source tools all day long none of this "Agile" stuff would matter to me. But, 
+source tools all day long, none of this "Agile" stuff would matter to me. But, 
 alas, it does because I need money and "Agile" is what helps me put up with 
 the disarray that the world of business people is.
 
