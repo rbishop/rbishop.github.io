@@ -74,3 +74,5 @@ Geocities-esque web page](http://agilemanifesto.org/) that hasn't changed,
 ever. The charlatans pimping courses and seminars need to be ostracised. The 
 best advocates of Agility are us: *the developers*. Developers created the 
 Agile Manifesto, let's carry that torch forward for them.
+
+*You can comment on this post on HackerNews [here](https://news.ycombinator.com/item?id=7385959)*
