@@ -33,8 +33,8 @@ In my short career I've been on a number of job interviews and have worked on
 several teams at different companies. Guess what? All of them have claimed they
 are Agile. I've done my best during the interview process to get a feel for how
 they work without jeopardizing my candidacy for the job. My only regret is that
-I should have jeopardized my candidacy more by pro into their interpretation of
-Agile.
+I should have jeopardized my candidacy more by probing into their interpretation
+of Agile.
 
 I've been in a three day long sprint planning meeting for a 6 week "sprint."
 I've seen user story cards with nothing but "Make dashboard better" written on
