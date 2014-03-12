@@ -36,7 +36,7 @@ they work without jeopardizing my candidacy for the job. My only regret is that
 I should have jeopardized my candidacy more by probing into their interpretation
 of Agile.
 
-I've been in a three day long sprint planning meeting for a 6 week "sprint."
+I've been in a three day long sprint planning meeting for a six week "sprint."
 I've seen user story cards with nothing but "Make dashboard better" written on
 them by Certified Scrum Masters. It's pathetic. Even more pathetic is that I
 accepted their job offer, but I didn't know any better. They told me they were
@@ -65,7 +65,7 @@ building features with higher certainty, less meetings, and more learning. Go
 find that person. They are likely a member of your local Agile user group.
 Unlike you, they've taken the time to understand what Agility is all about and
 they were interested in helping you until your team stared at them like a pack
-of Antelope.
+of antelope.
 
 Change starts with us, the bastions of Agility with a capital A. It's our
 responsibility to inform business leaders of what agile is. Agile is so simple
