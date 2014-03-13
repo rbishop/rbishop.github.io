@@ -43,11 +43,11 @@ accepted their job offer, but I didn't know any better. They told me they were
 Agile, after all.
 
 ### Organizing Around Tools Instead Of People
-The above header is certainly not one of the tenets of Agile Manifesto. Yet,
-every time I talk with a so-called Agile company about how they work I get a
-laundry list of SaaS Web applications. Trello, Basecamp, JIRA, Pivotal -- none
-of these tools existed when the Agile Manifesto was carved into Kent Beck's
-chest while he was being forcefully held onto an Altair 8080 by the other
+The above header is certainly not one of the tenets of the Agile Manifesto. 
+Yet, every time I talk with a so-called Agile company about how they work I get 
+a laundry list of SaaS Web applications. Trello, Basecamp, JIRA, Pivotal -- 
+none of these tools existed when the Agile Manifesto was carved into Kent 
+Beck's chest while he was being forcefully held to an Altair 8080 by the other
 fifteen Agile Manifesto founders (it's still unclear which founder did the
 carving).
 
