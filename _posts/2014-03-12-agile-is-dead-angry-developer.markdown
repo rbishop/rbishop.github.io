@@ -71,7 +71,7 @@ Change starts with us, the bastions of Agility with a capital A. It's our
 responsibility to inform business leaders and fellow programmers of what agile 
 is. Agile is so simple and beautiful that it is [summed up eloquently in a 
 Geocities-esque web page](http://agilemanifesto.org/) that hasn't changed, 
-ever. The charlatans pimping courses and seminars need to be ostracised. The 
+ever. The charlatans pimping courses and seminars need to be ostracized. The 
 best advocates of Agility are us: *the developers*. Developers created the 
 Agile Manifesto, let's carry that torch forward for them.
 
