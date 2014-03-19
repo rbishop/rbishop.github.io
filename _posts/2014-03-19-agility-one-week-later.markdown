@@ -16,7 +16,7 @@ that went.
 Discussion is always a good thing, but *action* is even more important. I've
 been getting into the habit of using the word agility whenever this topic comes
 up. Most people are looking at me like I'm the idiot that doesn't know what's
-going on. In a year's time I imagine we can enjoy giving the cocked-head stare
+going on. In a year's time, I imagine we can enjoy giving the cocked-head stare
 to anyone still using the old word.
 
 ### This Isn't a War of Words
@@ -48,7 +48,7 @@ to make it better. Don't spend too much time on this, though. By doing this
 over and over occasionally, we can *steal* back what we thought we were getting
 in the first place. All of a sudden we have agility!
 
-One thing is clear: the first time around the Agile merry-go-round we
+One thing is clear: the first time around the Agile merry-go-round, we
 developers didn't do a good job of protecting what's important to us.
 Agile-to-Go kits, trainings and useless meetings seemingly crept in through the
 night. Agility is our second chance at having an environment that is in our
