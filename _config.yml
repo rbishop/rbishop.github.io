@@ -1,5 +1,5 @@
 name: Richard Bishop
 description: Sharing my experiences and thoughts about Ruby on Rails, Test-driven Development, Software Design and Developing with Agility
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 url: http://rubiquity.com
