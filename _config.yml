@@ -3,3 +3,4 @@ description: Sharing my experiences and thoughts about Ruby on Rails, Test-drive
 markdown: redcarpet
 highlighter: pygments
 url: http://rubiquity.com
+timezone: UTC
