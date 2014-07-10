@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agile Is Dead: The Angry Developer Version"
-date: 2014-03-12 05:00:00
+date: 2014-03-12 12:00:00
 ---
 
 Yesterday, [Dave Thomas wrote an incredible
