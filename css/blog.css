@@ -43,11 +43,12 @@ h3 {
     margin: 0;
 }
 .brand-title {
+    margin-bottom: 10px;
     text-transform: uppercase;
 }
 .brand-tagline {
-    font-weight: 200;
-    color: rgb(180, 180, 180);
+    font-weight: 400;
+    color: #fff;
 }
 
 .nav-list {
