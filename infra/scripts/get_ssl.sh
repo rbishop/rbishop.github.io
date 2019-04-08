@@ -10,6 +10,7 @@ log() {
 if [ -f last_renewed_at.txt ]; then
   log "Checking for last renewal time"
   prev_renewal=$(date -f last_renewed_at.txt +"%s")
+  log "SSL cert last renewed at $(< last_renewed_at.txt)"
 else
   log "Last renewal time not found. Setting to 0"
   prev_renewal=0
