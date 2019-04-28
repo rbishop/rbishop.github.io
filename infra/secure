@@ -1,4 +1,20 @@
 #! /bin/bash
 
-# Install fail2ban?
-# Disallow all ingress traffic except ports 22, 80, 443
+# Allow outbound packets for new connections our server makes as well as
+# outbound packets in reply packets for connections made to our server
+iptables --insert OUTPUT -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
+
+# Allow inbound packets for connections our server established as well as
+# connections made to our server
+iptables --insert INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+
+# Allow inbound packets for ssh, http, https, dns, and icmp
+iptables --insert INPUT -p tcp --dport 22 -j ACCEPT
+iptables --insert INPUT -p tcp --dport 80 -j ACCEPT
+iptables --insert INPUT -p tcp --dport 443 -j ACCEPT
+iptables --insert INPUT -p udp --dport 53 -j ACCEPT
+iptables --insert INPUT -p icmp -j ACCEPT
+
+# Don't allow all other traffic
+iptables --policy INPUT DROP
+iptables --policy OUTPUT DROP
