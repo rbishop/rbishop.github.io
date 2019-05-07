@@ -1,0 +1,14 @@
+[Unit]
+Description=Nginx web server
+After=networking.target
+
+[Service]
+Type=forking
+Restart=always
+PIDFile=/var/nginx/logs/nginx.pid
+ExecStartPre=/var/nginx/sbin/nginx -t
+ExecStart=/var/nginx/sbin/nginx -c /var/nginx/conf/nginx.conf
+ExecStop=/var/nginx/sbin/nginx -s quit
+
+[Install]
+WantedBy=multi-user.target
