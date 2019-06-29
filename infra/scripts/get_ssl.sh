@@ -21,7 +21,7 @@ acc_id=$(curl -sS -H "Authorization: Bearer $token" https://api.dnsimple.com/v2/
 api_updated_at=$(curl -sS \
   -H "Authorization: Bearer $token" \
   https://api.dnsimple.com/v2/$acc_id/domains/bitsandhops.com/certificates \
-| jq --raw-output '.data[] | select(.common_name == "www.bitsandhops.com") | .updated_at')
+| jq --raw-output '.data[0] | select(.common_name == "www.bitsandhops.com") | .updated_at')
 
 updated_at=$(date -d $api_updated_at +"%s")
 
@@ -30,8 +30,7 @@ if [ $updated_at -gt $prev_renewal ]; then
   cert_id=$(curl -sS \
     -H "Authorization: Bearer $token" \
     https://api.dnsimple.com/v2/$acc_id/domains/bitsandhops.com/certificates \
-  | jq --raw-output '.data[] | select(.common_name == "www.bitsandhops.com") | .id')
-
+    | jq --raw-output '.data | map(select(.common_name == "www.bitsandhops.com")) | first.id')
 
   log "Writing certificate chain"
   curl -sS \
